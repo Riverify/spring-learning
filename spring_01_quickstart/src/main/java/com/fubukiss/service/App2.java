@@ -1,6 +1,5 @@
 package com.fubukiss.service;
 
-import com.fubukiss.dao.BookDao;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -9,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * Date 2022/11/27 09:47
  * Author river
  */
-public class App {
+public class App2 {
     public static void main(String[] args) {
         // 3.获取ioc容器
         ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");

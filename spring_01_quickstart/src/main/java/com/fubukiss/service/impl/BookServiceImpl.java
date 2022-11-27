@@ -10,9 +10,17 @@ import com.fubukiss.service.BookService;
  * Author river
  */
 public class BookServiceImpl implements BookService {
-    private BookDao bd = new BookDaoImpl();
+
+    // 5.删除业务层中使用new方式创建的对象
+    private BookDao bookDao; // = new BookDaoImpl();
 
     public void read() {
-        bd.check();
+        bookDao.check();
     }
+
+    // 6.提供对应set方法
+    public void setBookDao(BookDao bookDao) {
+        this.bookDao = bookDao;
+    }
+
 }
