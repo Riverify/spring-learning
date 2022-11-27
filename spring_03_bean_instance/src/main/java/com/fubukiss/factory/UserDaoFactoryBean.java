@@ -11,6 +11,7 @@ public class UserDaoFactoryBean implements FactoryBean<UserDao> {
         return new UserDaoImpl();
     }
 
+    //UserDao的类型
     public Class<?> getObjectType() {
         return UserDao.class;
     }
