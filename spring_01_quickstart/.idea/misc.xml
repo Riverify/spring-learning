@@ -15,6 +15,7 @@
     <file type="web" url="file://$PROJECT_DIR$/../spring_12_annotation_bean_manager" />
     <file type="web" url="file://$PROJECT_DIR$/../spring_13_annotation_di" />
     <file type="web" url="file://$PROJECT_DIR$/../spring_14_annotation_third_bean_manager" />
+    <file type="web" url="file://$PROJECT_DIR$/../spring_15_spring_mybatis" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -35,6 +36,7 @@
         <option value="$PROJECT_DIR$/../spring_12_annotation_bean_manager/pom.xml" />
         <option value="$PROJECT_DIR$/../spring_13_annotation_di/pom.xml" />
         <option value="$PROJECT_DIR$/../spring_14_annotation_third_bean_manager/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_15_spring_mybatis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
