@@ -6,9 +6,9 @@
     <!-- 1.导入spring的坐标spring-context, version 5.2.10.RELEASE -->
 
     <!-- 2.配置bean -->
-    <bean id="bookDao" class="com.fubukiss.dao.impl.BookDaoImpl"/>
+    <bean id="bookDao" class="com.fubukiss.dao.impl.BookDaoImpl" scope="singleton"/>
 
-    <bean id="bookService" name="service" class="com.fubukiss.service.impl.BookServiceImpl">
+    <bean id="bookService" name="service service2 bookEbi" class="com.fubukiss.service.impl.BookServiceImpl">
         <!-- 7.配置service和dao之间的关系 -->
         <!-- name: 表示service中某个具体属性
              ref: 表示参考的bean id -->
