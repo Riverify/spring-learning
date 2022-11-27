@@ -7,6 +7,7 @@
     <file type="web" url="file://$PROJECT_DIR$/../spring_03_bean_instance" />
     <file type="web" url="file://$PROJECT_DIR$/../spring_04_bean_lifecycle" />
     <file type="web" url="file://$PROJECT_DIR$/../spring_05_di_set" />
+    <file type="web" url="file://$PROJECT_DIR$/../spring_06_di_constructor" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -16,6 +17,7 @@
         <option value="$PROJECT_DIR$/../spring_03_bean_instance/pom.xml" />
         <option value="$PROJECT_DIR$/../spring_04_bean_lifecycle/pom.xml" />
         <option value="$PROJECT_DIR$/../spring_05_di_set/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_06_di_constructor/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
