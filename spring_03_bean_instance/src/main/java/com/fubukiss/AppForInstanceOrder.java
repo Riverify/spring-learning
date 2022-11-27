@@ -1,12 +1,13 @@
 package com.fubukiss;
 
 import com.fubukiss.dao.OrderDao;
+import com.fubukiss.factory.OrderDaoFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class AppForInstanceOrder {
     public static void main(String[] args) {
-        //通过静态工厂创建对象
+        // 通过静态工厂创建对象
 //        OrderDao orderDao = OrderDaoFactory.getOrderDao();
 //        orderDao.save();
 
