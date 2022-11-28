@@ -35,6 +35,6 @@ public class ProjectAdvice {
         }
         long end = System.currentTimeMillis();
 
-        System.out.println("10k次执行:" + className + "." + methodName + "---->" + (end - start) + "ms");
+        System.out.println("10k次执行: " + className + "." + methodName + " ----> " + (end - start) + "ms");
     }
 }

@@ -21,6 +21,7 @@
     <file type="web" url="file://$PROJECT_DIR$/../spring_18_aop_quickstart" />
     <file type="web" url="file://$PROJECT_DIR$/../spring_19_aop_pointcut" />
     <file type="web" url="file://$PROJECT_DIR$/../spring_20_aop_advice_type" />
+    <file type="web" url="file://$PROJECT_DIR$/../spring_22_aop_advice_data" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -48,6 +49,7 @@
         <option value="$PROJECT_DIR$/../spring_19_aop_pointcut/pom.xml" />
         <option value="$PROJECT_DIR$/../spring_20_aop_advice_type/pom.xml" />
         <option value="$PROJECT_DIR$/../spring_21_case_interface_run_speed/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_22_aop_advice_data/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
