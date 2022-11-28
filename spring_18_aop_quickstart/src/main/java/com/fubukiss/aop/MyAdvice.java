@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class MyAdvice {
     //设置切入点，要求配置在方法上方
-    @Pointcut("execution(void com.fubukiss.dao.BookDao.update())")
+    @Pointcut("execution (void com.fubukiss.dao.BookDao.update())")
     private void pt() {
     }
 
