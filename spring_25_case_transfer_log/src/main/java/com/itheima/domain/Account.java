@@ -1,4 +1,4 @@
-package com.fubukiss.domain;
+package com.itheima.domain;
 
 import java.io.Serializable;
 

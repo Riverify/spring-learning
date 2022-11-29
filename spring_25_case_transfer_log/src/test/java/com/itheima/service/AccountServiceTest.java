@@ -1,6 +1,6 @@
-package com.fubukiss.service;
+package com.itheima.service;
 
-import com.fubukiss.config.SpringConfig;
+import com.itheima.config.SpringConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,7 @@ public class AccountServiceTest {
 
     @Test
     public void testTransfer() throws IOException {
-        accountService.transfer("Tom", "Jerry", 100D);
+        accountService.transfer("Tom", "Jerry", 50D);
     }
 
 }

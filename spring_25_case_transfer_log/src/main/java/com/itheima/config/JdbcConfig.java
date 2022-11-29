@@ -1,8 +1,9 @@
-package com.fubukiss.config;
+package com.itheima.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
 
@@ -29,13 +30,10 @@ public class JdbcConfig {
         return ds;
     }
 
-
-    // 事物管理器
     @Bean
     public PlatformTransactionManager transactionManager(DataSource dataSource) {
-        DataSourceTransactionManager dataSourceTransactionManager = new DataSourceTransactionManager();
-        dataSourceTransactionManager.setDataSource(dataSource);
-
-        return dataSourceTransactionManager;
+        DataSourceTransactionManager ptm = new DataSourceTransactionManager();
+        ptm.setDataSource(dataSource);
+        return ptm;
     }
 }
