@@ -8,9 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring_22_aop_advice_data" />
         <module name="spring_23_case_handle_password" />
+        <module name="spring_25_case_transfer_log" />
         <module name="spring_11_annotation_bean" />
         <module name="spring_13_annotation_di" />
         <module name="spring_16_spring_junit" />
+        <module name="spring_24_case_transfer" />
         <module name="spring_05_di_set" />
         <module name="spring_08_di_collecton" />
         <module name="spring_10_container" />
